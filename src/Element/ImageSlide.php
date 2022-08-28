@@ -97,7 +97,8 @@ class ImageSlide extends BaseItem
 
         $titleField = $fields->fieldByName('Root.Main.Title');
         $titleField->setTitle(_t(__CLASS__ . '.TITLETITLE', 'Alt Text'));
-        $titleField->setDescription(_t(__CLASS__ . '.TITLEDESC',
+        $titleField->setDescription(_t(
+            __CLASS__ . '.TITLEDESC',
             "
                 Alternative text in case the image cannot be loaded or for screen readers.
                 Should describe the image as best as possible.

@@ -28,5 +28,4 @@ class DemoTest extends FunctionalTest
     {
         $this->assertEquals(2, 1+1);
     }
-
 }
