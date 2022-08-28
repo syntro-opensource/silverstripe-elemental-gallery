@@ -30,16 +30,16 @@ jobs:
     name: 🧰 Silverstripe Module Testsuite
     uses: syntro-opensource/workflows/.github/workflows/silverstripe-module.yml@master
     with:
-      phpunit: false
-      phpstan: false
-      phpcs: false
+      phpunit: true
+      phpstan: true
+      phpcs: true
   silverstripe-client:
     name: 📦 Client Testsuite
     uses: syntro-opensource/workflows/.github/workflows/client.yml@master
     with:
-      eslint: false
-      # eslint_dir: client/src/
-      # eslint_configfile: client/src/.eslintrc
-      stylelint: false
-      # stylelint_glob: client/src/**/*.scss
+      eslint: true
+      eslint_dir: client/src/
+      eslint_configfile: client/src/.eslintrc
+      stylelint: true
+      stylelint_glob: client/src/**/*.scss
       # stylelint_max-warnings:
