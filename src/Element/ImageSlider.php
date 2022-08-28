@@ -1,6 +1,6 @@
 <?php
 
-namespace Syntro\SilverstripeElementalGallery\Element;
+namespace Syntro\SilverstripeElementalSlider\Element;
 
 use SilverStripe\Forms\CheckboxField;
 use SilverStripe\Forms\FieldList;
@@ -8,8 +8,8 @@ use SilverStripe\Forms\GridField\GridField;
 use SilverStripe\Assets\Image;
 use DNADesign\Elemental\Models\BaseElement;
 use Syntro\SilverStripeElementalBaseitem\Forms\GridFieldConfig_ElementalChildren;
-use Syntro\SilverstripeElementalGallery\Element\ImageSlide;
-use Syntro\SilverstripeElementalGallery\Interfaces\Swiper;
+use Syntro\SilverstripeElementalSlider\Element\ImageSlide;
+use Syntro\SilverstripeElementalSlider\Interfaces\Swiper;
 
 /**
  * An element which renders a Slider.

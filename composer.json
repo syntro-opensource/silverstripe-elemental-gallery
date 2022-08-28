@@ -1,5 +1,5 @@
 {
-    "name": "syntro/silverstripe-elemental-gallery",
+    "name": "syntro/silverstripe-elemental-slider",
     "description": "Gallery block for the silverstripe elemental editor.",
     "type": "silverstripe-vendormodule",
     "authors": [
@@ -29,8 +29,8 @@
     "license": "BSD-3-Clause",
     "autoload": {
         "psr-4": {
-            "Syntro\\SilverstripeElementalGallery\\": "src/",
-            "Syntro\\SilverstripeElementalGallery\\Tests\\": "tests/"
+            "Syntro\\SilverstripeElementalSlider\\": "src/",
+            "Syntro\\SilverstripeElementalSlider\\Tests\\": "tests/"
         }
     },
     "scripts": {

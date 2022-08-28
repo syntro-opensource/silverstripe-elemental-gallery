@@ -1,5 +1,5 @@
-<% require javascript('syntro/silverstripe-elemental-gallery:client/dist/main.js') %>
-<% require css('syntro/silverstripe-elemental-gallery:client/dist/bundle.css') %>
+<% require javascript('syntro/silverstripe-elemental-slider:client/dist/main.js') %>
+<% require css('syntro/silverstripe-elemental-slider:client/dist/bundle.css') %>
 <div class="container">
     <!-- Slider main container -->
     <div class="swiper" data-slider="$Swiper" data-slider-config='{"loop": true, "autoplay": {"delay": 5000}}'>

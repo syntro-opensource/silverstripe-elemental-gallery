@@ -1,6 +1,6 @@
 <?php
 
-namespace Syntro\SilverstripeElementalGallery\Interfaces;
+namespace Syntro\SilverstripeElementalSlider\Interfaces;
 
 /**
  * Implements functions necessary for swiper config

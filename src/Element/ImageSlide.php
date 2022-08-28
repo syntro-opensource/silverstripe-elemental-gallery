@@ -1,6 +1,6 @@
 <?php
 
-namespace Syntro\SilverstripeElementalGallery\Element;
+namespace Syntro\SilverstripeElementalSlider\Element;
 
 use SilverStripe\Forms\DropdownField;
 use SilverStripe\Forms\FieldList;
@@ -10,7 +10,7 @@ use Syntro\SilverStripeElementalBaseitem\Model\BaseItem;
 use SilverStripe\ORM\ValidationResult;
 // use gorriecoe\Link\Models\Link;
 // use gorriecoe\LinkField\LinkField;
-use Syntro\SilverstripeElementalGallery\Element\ImageSlider;
+use Syntro\SilverstripeElementalSlider\Element\ImageSlider;
 
 /**
  * A carousel slide

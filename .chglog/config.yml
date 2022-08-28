@@ -2,7 +2,7 @@ style: github
 template: CHANGELOG.tpl.md
 info:
   title: CHANGELOG
-  repository_url: https://github.com/syntro-opensource/silverstripe-elemental-gallery
+  repository_url: https://github.com/syntro-opensource/silverstripe-elemental-slider
 options:
   commits:
     filters:

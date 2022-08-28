@@ -4,8 +4,8 @@ The module provides a default swiper build which you can import
 via:
 
 ```
-<% require javascript('syntro/silverstripe-elemental-gallery:client/dist/main.js') %>
-<% require css('syntro/silverstripe-elemental-gallery:client/dist/bundle.css') %>
+<% require javascript('syntro/silverstripe-elemental-slider:client/dist/main.js') %>
+<% require css('syntro/silverstripe-elemental-slider:client/dist/bundle.css') %>
 ```
 
 The swiper build from this module will automatically attach to
