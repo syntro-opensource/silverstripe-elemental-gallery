@@ -1,6 +1,6 @@
 {
-    "name": "syntro/silverstripe-module",
-    "description": "Silverstripe module.",
+    "name": "syntro/silverstripe-elemental-gallery",
+    "description": "Gallery block for the silverstripe elemental editor.",
     "type": "silverstripe-vendormodule",
     "authors": [
         {
@@ -10,7 +10,8 @@
     ],
     "require": {
         "silverstripe/cms": "^4",
-        "silverstripe/framework": "^4"
+        "silverstripe/framework": "^4",
+        "syntro/silverstripe-elemental-baseitem": "^1"
     },
     "require-dev": {
         "squizlabs/php_codesniffer": "^3.0",
@@ -28,8 +29,8 @@
     "license": "BSD-3-Clause",
     "autoload": {
         "psr-4": {
-            "Syntro\\Module\\": "src/",
-            "Syntro\\Module\\Tests\\": "tests/"
+            "Syntro\\SilverstripeElementalGallery\\": "src/",
+            "Syntro\\SilverstripeElementalGallery\\Tests\\": "tests/"
         }
     },
     "scripts": {

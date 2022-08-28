@@ -21,7 +21,7 @@ const PATHS = {
 
 const config = [
   {
-    name: 'seo-field',
+    name: 'swiper',
     entry: {
       main: Path.resolve(__dirname, 'client/src/bundle.js')
     },
