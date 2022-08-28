@@ -109,6 +109,7 @@ class ImageSlider extends BaseElement implements Swiper
 
     /**
      * Relationship version ownership
+     * @config
      * @var array
      */
     private static $owns = [

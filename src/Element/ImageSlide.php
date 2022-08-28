@@ -67,6 +67,7 @@ class ImageSlide extends BaseItem
     /**
      * Defines summary fields commonly used in table columns
      * as a quick overview of the data for this dataobject
+     * @config
      * @var array
      */
     private static $summary_fields = [
@@ -76,6 +77,7 @@ class ImageSlide extends BaseItem
 
     /**
      * Relationship version ownership
+     * @config
      * @var array
      */
     private static $owns = [
